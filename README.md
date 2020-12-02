@@ -4,6 +4,7 @@
 ## 概要
 Twitchのチャットを配信画面に反映させる際にOBSのブラウザソースのカスタムCSSに設定するCSS。  
 とりあえず表示できればいいのであれば使えますが、こだわりたいなら[Streamlabs](https://streamlabs.com)使うといいかもです。
+([参考ページ](https://vip-jikkyo.net/twitch-chat-on-screen))
 
 ## 使用方法
 OBSのブラウザソースでURLを https://www.twitch.tv/popout/YOUR_TWITCH_ID/chat?popout= に設定し、カスタムCSSにtwitch_chat.cssの内容をコピー＆ペーストしてOKをクリックしてください。
