@@ -1,0 +1,37 @@
+/* 背景透過 */
+* {
+	background: transparent !important;
+}
+
+/* コメント以外の部分消去 */
+.stream-chat-header,
+.tw-z-default,
+.chat-input,
+.chat-line__status {
+	visibility: hidden !important;
+	width: 0 !important;
+	height: 0 !important;
+	border: none !important;
+}
+
+/*　名前の後ろのコロン消去 （有効化する場合は1行下と5行下の行を削除） */
+/*
+span[data-test-selector="chat-message-separator"] {
+	display: none !important;
+}
+*/
+/* メッセージのコンテナ */
+/* デフォルトでは左右20px、上下5pxのpaddingが入っている */
+.chat-line__message {
+}
+/* ユーザー名のスタイル */
+/* コンテナ */
+.chat-line__username-container {
+}
+/* チャットバッジ消去 （無効化する場合は下3行を削除) */
+.chat-line__username-container span:first-child {
+	display: hidden !important;
+}
+/* ユーザー名コンテナ */
+.chat-line__username {
+}
